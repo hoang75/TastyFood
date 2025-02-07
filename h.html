@@ -1,115 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasty Food</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background: #28a745; /* Green background */
-            color: white;
-            padding: 20px 0;
-        }
-        nav {
-            margin: 20px 0;
-        }
-        nav a {
-            color: white;
-            padding: 10px 15px;
-            text-decoration: none;
-        }
-        section {
-            padding: 50px 20px;
-        }
-        h2 {
-            margin-bottom: 20px;
-        }
-        .menu-item {
-            margin: 20px 0;
-            border: 1px solid #ccc;
-            padding: 10px;
-            border-radius: 5px;
-            background: white;
-        }
-        footer {
-            background: #333;
-            color: white;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Tasty Food</h1>
-    <nav>
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#services">SERVICES</a>
-        <a href="#menu">MENU</a>
-        <a href="#contact">CONTACT US</a>
-    </nav>
-</header>
-
-<main>
-    <section id="home">
-        <h2>Tasty Food</h2>
-        <p>Try the best food of the week.</p>
-        <img src="YOUR_IMAGE_URL" alt="Fresh Salad">
-        <a href="#menu">View Menu</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <section>
+      <div class="intro-container">
+        <div style="margin-right: 100px;">
+          <h1>Tasty food</h1>
+          <h2>Try the best food of the week</h2>
+          <button>View Menu</button>
+        </div>
+        <div><img src="/bun_dau.jpg" alt="" class="intro-img" /></div>
+      </div>
+      <div class="about-container">
+        <div><img src="/bun_dau.jpg" alt="" class="about-img" /></div>
+        <div>
+          <span>About us</span>
+          <h2>We cook the best tasty food</h2>
+          <p>
+            We cook the best food in the entire city, with excellent customer
+            service, the best meals and the best price, visit us.
+          </p>
+          <button>Explore history</button>
+        </div>
+      </div>
+      <div class="services-container">
+        <div>
+          <span>Offering</span>
+          <h2>Our amazing services</h2>
+        </div>
+        <div class="services">
+          <div>
+            <img src="/bun_dau.jpg" alt="" class="services-img" />
+            <h3>Excellent</h3>
+            <p>
+              We offer our clients excellent quality services for many years,
+              with the best and delicious food in the city
+            </p>
+          </div>
+          <div>
+            <img src="/bun_dau.jpg" alt="" class="services-img" />
+            <h3>Fast food</h3>
+            <p>
+              We offer our clients excellent quality services for many years,
+              with the best and delicious food in the city
+            </p>
+          </div>
+          <div>
+            <img src="/bun_dau.jpg" alt="" class="services-img" />
+            <h3>Delivery</h3>
+            <p>
+              We offer our clients excellent quality services for many years,
+              with the best and delicious food in the city
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div>
+          <span>Special</span>
+          <h2>Menu of the week</h2>
+        </div>
+        <div class="menu">
+          <div>
+            <img src="/bun_dau.jpg" alt="" class="menu-img" />
+            <h3>Barbecue salad</h3>
+            <span>Delicious dish</span>
+            <span>$22.00</span>
+          </div>
+          <div>
+            <img src="/bun_dau.jpg" alt="" class="menu-img" />
+            <h3>Salad with fish</h3>
+            <span>Delicious dish</span>
+            <span>$12.00</span>
+          </div>
+          <div>
+            <img src="/bun_dau.jpg" alt="" class="menu-img" />
+            <h3>Spinach salad</h3>
+            <span>Delicious dish</span>
+            <span>$9.50</span>
+          </div>
+        </div>
+      </div>
+      <div class="app-container">
+        <div>
+          <span>App</span>
+          <h2>App is available</h2>
+          <p>
+            Find our application and download it, you can make reservations,
+            food orders, see your deliveries on the map and much more.
+          </p>
+          <div style="display: flex">
+            <button>Download App-store</button>
+            <button>Download CH-Play</button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="/bun_dau.jpg"
+            alt=""
+            style="width: 280px; height: 283.469px"
+          />
+        </div>
+      </div>
+      <div class="contact-container">
+        <div>
+          <span>Let's talk</span>
+          <h2>Contact us</h2>
+          <p>
+            If you want to reserve a table in our restaurant, contact us and we
+            will attend you quickly, with our 24/7 chat service.
+          </p>
+        </div>
+        <div>
+          <button>Contact us now</button>
+        </div>
+      </div>
     </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We cook the best tasty food in the entire city, with excellent customer service, the best meals, and at the best price. Visit us.</p>
-    </section>
-
-    <section id="services">
-        <h2>Our Amazing Services</h2>
-        <div class="menu-item">Excellent Food</div>
-        <div class="menu-item">Fast Food</div>
-        <div class="menu-item">Delivery</div>
-    </section>
-
-    <section id="menu">
-        <h2>Menu of the Week</h2>
-        <div class="menu-item">Barbecue Salad - $22.00</div>
-        <div class="menu-item">Salad with Fish - $12.00</div>
-        <div class="menu-item">Spinach Salad - $9.50</div>
-    </section>
-
-    <section id="app">
-        <h2>App Availability</h2>
-        <p>Find our application and download it. You can make reservations, food orders, see your deliveries on the way, and much more.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you want to reserve a table in our restaurant, contact us and we will attend to you quickly, with our 24/7 chat service.</p>
-        <p>Address: Lima - Peru, Jr Union #999</p>
-        <p>Phone: 999 - 888 - 777</p>
-        <p>Email: <a href="mailto:tastyfood@email.com">tastyfood@email.com</a></p>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2020 Bedimcode. All rights reserved.</p>
-</footer>
-
-</body>
+    <footer class="footer-container">
+      <div>
+        <h3>Tasty Food</h3>
+        <span>restaurant</span>
+        <div>
+          <img src="/bun_dau.jpg" alt="" style="width: 11.25px; height: 18px" />
+          <img src="/bun_dau.jpg" alt="" style="width: 11.25px; height: 18px" />
+          <img src="/bun_dau.jpg" alt="" style="width: 11.25px; height: 18px" />
+        </div>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="">Delivery</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Fast food</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Information</h3>
+        <ul>
+          <li><a href="">Event</a></li>
+          <li><a href="">Contact us</a></li>
+          <li><a href="">Privacy policy</a></li>
+          <li><a href="">Terms of services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Address</h3>
+        <ul>
+          <li>92 Cherry Drive</li>
+          <li>London</li>
+          <li>United Kingdom</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
